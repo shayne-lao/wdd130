@@ -31,7 +31,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-    bottom: 180px;
+    bottom: 10px;
     left: 0px;
 }
 
@@ -51,7 +51,7 @@ h1 {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     color: black;
     background-color: var(--secondary-color);
     padding: 1px;
@@ -65,7 +65,7 @@ h2 {
 
 section {
     color: black;
-    position: relative;
+    /* position: relative; */
     bottom: 140px;
     text-align: center;
 }
