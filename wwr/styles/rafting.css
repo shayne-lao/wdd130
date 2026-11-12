@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #00065c;
-    --secondary-color: #bedeff;
-    --accent1-color: #004e0a;
+    --primary-color: black;
+    --secondary-color: #a5d1fd;
+    --accent1-color: #4eadfa;
     --accent2-color: #ffead3;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -35,6 +35,10 @@ nav, p, section, article {
     left: 0px;
 }
 
+nav {
+    color: black;
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -49,11 +53,29 @@ h1 {
 article {
     position: relative;
     color: black;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     padding: 1px;
 }
 
+h2 {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
 
+section {
+    color: black;
+    position: relative;
+    bottom: 140px;
+    text-align: center;
+}
+
+footer {
+    color: black;
+    margin-top: 15px;
+    border-top: black;
+  
+    
+}
 /* sections */
 
 .socialmedia a {
