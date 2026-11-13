@@ -1,8 +1,8 @@
 :root {
     --primary-color: black;
-    --secondary-color: #a5d1fd;
-    --accent1-color: #4eadfa;
-    --accent2-color: #ffead3;
+    --secondary-color: white;
+    --accent1-color: black;
+    --accent2-color: white;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -25,7 +25,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav, p, section, article {
@@ -46,21 +46,22 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--primary-color);
+
 }
 
 .hero article {
     position: absolute;
-    color: black;
-    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
     padding: 1px;
     opacity: 0.7;   
 }
 
 h2 {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 10px;
+    color: var(--accent2-color);
 }
 
 section {
