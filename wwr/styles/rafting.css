@@ -35,8 +35,21 @@ nav, p, section, article {
     left: 0px;
 }
 
-nav {
+header img, nav {
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: var(--body-font)
 }
 
 h1 {
@@ -45,8 +58,9 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.75;
     background-color: var(--primary-color);
+    color: white;
 
 }
 
@@ -71,13 +85,33 @@ section {
     text-align: center;
 }
 
+.box-footer h2 {
+    grid-column: span 3;
+}
+
+footer p {
+    grid-column: span 4;
+}
+
 footer {
+    max-width: 900px;
+    margin: 0 auto;
     color: black;
     margin-top: 15px;
     border-top: black;
-  
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
 }
+
+/* footer nav {
+    grid-column: 1 / -1;
+    text-align: center;
+} */
+
+
 /* sections */
 
 .socialmedia a {
@@ -98,4 +132,30 @@ footer {
     float: right;
     width: 140px;
     opacity: 1;
+}
+
+.box {
+    display: flex;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.box h2 {
+    grid-column: span 3;
+    align-items: flex-start;
+}
+
+.box p {
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.box img {
+    justify-content: center;
 }
