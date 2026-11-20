@@ -16,11 +16,20 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 h1, h2 {
@@ -29,7 +38,7 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    margin: 16px;
+    /* margin: 16px; */
     padding: 8px;
     bottom: 10px;
     left: 0px;
@@ -85,12 +94,12 @@ section {
     text-align: center;
     /* max-width: 900px; */
     /* margin: 0 auto; */
-    margin-top: 15px;
+    /* margin-top: 15px; */
     /* border-top: black; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
     gap: 20px;
 }
 
@@ -145,7 +154,7 @@ footer {
 }
 
 .box h2 {
-    grid-column: span 3;
+    grid-column: span 5;
     align-items: flex-start;
 }
 
