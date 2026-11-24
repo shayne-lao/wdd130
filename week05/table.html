@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+    <link rel="stylesheet" href="styles/table.css">
+</head>
+<body>
+    <h1>Table Exercise Example Solution</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">League</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Record</th>
+                    <th scope="col">Player Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" scope="rowgroup">Southern</td>
+                    <td>Parana</td>
+                    <td>52-19</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Catarina</td>
+                    <td>49-24</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" scope="rowgroup">Western</td>
+                    <td>Lacerda</td>
+                    <td>92-70</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td>75-87</td>
+                    <td>20</td>
+                </tr>                
+                <tr>
+                    <td>Rodonia</td>
+                    <td>10-7</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="3" scope="row">Total Players</th>
+                <td>92</td>
+            </tfoot>
+        </table>
+</body>
+</html>
