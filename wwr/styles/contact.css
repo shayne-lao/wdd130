@@ -230,7 +230,7 @@ input, select, textarea {
 input[type=checkbox] {
     width: 22px;
     height: auto;
-    vertical-align:;
+    /* vertical-align:; */
 }
 
 .checkbox-row {
