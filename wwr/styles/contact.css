@@ -154,7 +154,7 @@ footer {
     opacity: 1;
 }
 
-.box {
+.employees {
     display: grid;
     flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
@@ -164,7 +164,7 @@ footer {
 
 }
 
-.box h2 {
+.employees h2 {
     grid-column: span 5;
     align-items: flex-start;
 }
