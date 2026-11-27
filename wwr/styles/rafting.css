@@ -285,7 +285,7 @@ input[type=checkbox] {
     align-items: center;
 }
 
-.checkbox-row2 input[type="checkbox"] {
+.checkbox-row2 input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
     margin: 0;
@@ -300,11 +300,11 @@ input[type=checkbox] {
     transition: border-color 0.2s;
 }
 
-.checkbox-row2 input[type="checkbox"]:checked {
+.checkbox-row2 input[type="radio"]:checked {
     border-color: black;
 }
 
-.checkbox-row2 input[type="checkbox"]:checked::after {
+.checkbox-row2 input[type="radio"]:checked::after {
     content: "";
     width: 10px;
     height: 10px;
