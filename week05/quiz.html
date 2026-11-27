@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Form Exercise</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Question 1</legend>
+                <div class="q1">
+                    <label for="q1">What does the acronym HTML stand for?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 2</legend>
+                <div class="q2">
+                    <label for="q2">Provide three (3) property values inside "justify-content":</label>
+                    <textarea id="q2" name="q2" rows="3"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 3</legend>
+                <div class="q3">
+                    <label for="q3">What does the CSS box model contain?</label>
+                    <select id="q3" name="q3">
+                        <option value="header, main, footer, nav">Header, Main, Footer, Nav</option>
+                        <option value="content, padding, border, margin">Content, Padding, Border, Margin</option>
+                        <option value="declaration, element, class, id">Declaration, Element, Class, ID</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Question 4</legend>
+                <div class="q4">
+                    <label for="q4">How many non-semantic tags are there? Based on given learning materials.</label>
+                    <input type="number" id="q4" name="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
